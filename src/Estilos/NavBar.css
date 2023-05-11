@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor-padre {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  & .lista {
+    background-color: #1a237e;
+    height: 46px;
+    display: flex;
+    margin: 0;
+    list-style: none;
+    gap: 4%;
+    align-items: center;
+    flex-grow: 1;
+  }
+  & a {
+    text-decoration: none;
+  }
+  & .ic-nv-bar {
+    font-size: 29px;
+    margin-left: auto;
+  }
+}
+.ct-enlaces {
+  display: flex;
+  gap: 4%;
+  place-content: center;
+  width: 100%;
+}
